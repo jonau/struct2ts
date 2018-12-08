@@ -1,1 +1,1 @@
-module github.com/OneOfOne/struct2ts
+module github.com/jonau/struct2ts

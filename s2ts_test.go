@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/OneOfOne/struct2ts"
+	"github.com/jonau/struct2ts"
 )
 
 type OtherStruct struct {

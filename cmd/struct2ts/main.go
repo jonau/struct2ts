@@ -13,7 +13,7 @@ import (
 
 	"text/template"
 
-	"github.com/OneOfOne/struct2ts"
+	"github.com/jonau/struct2ts"
 	"golang.org/x/tools/imports"
 	KP "gopkg.in/alecthomas/kingpin.v2"
 )
@@ -173,7 +173,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/OneOfOne/struct2ts"
+	"github.com/jonau/struct2ts"
 	{{ range $_, $imp := .imports }}"{{$imp}}"{{ end }}
 )
 {{- if eq .pkgName "main" }}
